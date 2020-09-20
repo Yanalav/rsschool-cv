@@ -1,0 +1,90 @@
+body {
+    font-family: Times, "Times New Roman", serif;
+    font-size: 16px;
+    background-image: url("assets/Background.jpg");
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header__image {
+    text-align: left;
+    padding-top: 30px;
+}
+
+.header__avatar {
+    border: 2px solid #000000;
+    border-radius: 5%;
+}
+
+.contacts {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Times, "Times New Roman", serif;
+    text-align: left;
+}
+
+.contacts__list-item {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin: 5px;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+.header__title {
+    font-size: 40px;
+    color: #000000;
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+    color: #000000;
+}
+
+.resume__part1, .resume__part2 {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+
+.section {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #000000;
+    background: rgba(56, 155, 158, 0.8);
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills-list {
+    list-style-position: inside;
+    text-align: justify;
+}
+
+.skills > .skills-title {
+    text-align: left;
+}
+
+ .summary-info, .skills-list, .experience-text, .education-text, .english-text {
+    font-size: 1.1rem;
+} 
+
+a:hover {
+    color: #ff0000;
+}
+
+.header__avatar:hover {
+    border: 2px solid #ffffff;
+}
+
+.summary-title:hover, .skills-title:hover, .experience-title:hover, .education-title:hover, .english-title:hover {
+    text-decoration: underline;
+}
